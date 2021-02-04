@@ -51,7 +51,7 @@ yellowTime.onclick = () =>{
 }
 
 redTime.onclick = () =>{
-    document.body.style.background = 'red'
+    document.body.style.background = ' rgb(131, 26, 26)'
     document.body.style.transition = '1s'
     watch.style.boxShadow = '0px 25px 40px #726CEE';
 }
