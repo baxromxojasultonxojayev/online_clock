@@ -154,41 +154,41 @@ button{
     padding: 10px 15px;
     margin: 20px;
     margin-left: 50px;
-   }
-   
-   .dark{
-       background: rgb(54, 54, 54);
-       color: white;
-       font-weight: bold;
-       font-size: 20px;
-       outline: none;
-       border: none;
-       font-family: Arial, Helvetica, sans-serif;
-       border-radius: 30px;
-       cursor: pointer;
-   }
-   
-   .dark:hover{
-       background: rgb(27, 27, 27);
-       transition: 1s;
-   }
-   
-   .light{
-       background: rgb(204, 204, 204);
-       color: rgb(102, 99, 99);
-       font-weight: bold;
-       font-size: 20px;
-       outline: none;
-       border: none;
-       font-family: Arial, Helvetica, sans-serif;
-       border-radius: 30px;
-       cursor: pointer;
-   }
-   
-   .light:hover{
-       background: rgb(229, 226, 226);
-       transition: 1s;
-   }
+}
+
+.dark{
+    background: rgb(54, 54, 54);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.dark:hover{
+    background: rgb(27, 27, 27);
+    transition: 1s;
+}
+
+.light{
+    background: rgb(204, 204, 204);
+    color: rgb(102, 99, 99);
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.light:hover{
+    background: rgb(229, 226, 226);
+    transition: 1s;
+}
 .yellow{
     background: rgb(214, 243, 49);
     color: rgb(131, 26, 26);
