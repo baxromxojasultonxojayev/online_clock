@@ -28,6 +28,9 @@ function OnlineClock(){
 
 let darkTime = document.querySelector(".dark")
 let lightTime = document.querySelector(".light")
+let yellowTime = document.querySelector(".yellow")
+let redTime = document.querySelector(".red")
+
 let watch = document.querySelector('.clock')
 
 darkTime.onclick = () =>{
@@ -39,4 +42,16 @@ darkTime.onclick = () =>{
 lightTime.onclick = () =>{
     document.body.style.background = 'white';
     document.body.style.transition = '1s'
+}
+
+yellowTime.onclick = () =>{
+    document.body.style.background = 'gold'
+    document.body.style.transition = '1s'
+    watch.style.boxShadow = '0px 25px 40px #726CEE';
+}
+
+redTime.onclick = () =>{
+    document.body.style.background = 'red'
+    document.body.style.transition = '1s'
+    watch.style.boxShadow = '0px 25px 40px #726CEE';
 }
